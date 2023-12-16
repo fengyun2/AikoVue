@@ -8,8 +8,9 @@
 cd packages/reactivity
 ```
 - 2. 在 `packages/reactivity/src/reactive.ts` 第 10 行添加 `debugger`
-- 3. 执行 `pnpm debug:reactive`
-- 4. 打开控制台，可以看到 `debugger` 断点
+- 3. 启动 vscode 调试(JavaScript Debug Terminal)
+- 4. 接着执行 `pnpm debug:reactive`
+- 5. 打开控制台，可以看到 `debugger` 断点
 
 ## 参考资料
 
